@@ -43,6 +43,7 @@ Danach sollte das Ausführen funktionieren.
 ### Empfohlene Software für die PHP-Entwicklung
 
 - PHP Binary
+- MySQL-Datenbank
 - Composer
 - Git
 - Node.js (npm)
@@ -55,6 +56,15 @@ Danach sollte das Ausführen funktionieren.
 ````shell
 choco install php
 ````
+
+## MySQL Server
+
+````shell
+choco install mysql
+````
+
+Nach der Installation kannst du dich mit ``mysql -u root`` über das Terminal
+in die MySQL-Umgebung einloggen.
 
 ## Composer
 Composer ist ein Paketmanager für Softwareabhängigkeiten in PHP. Außerdem versorgt dich Composer
