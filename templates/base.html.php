@@ -30,7 +30,7 @@ use TreptowKolleg\Api\Session;
         <script src="/assets/cab.js" type="text/javascript"></script>
         <script src="/assets/canvas.js" type="text/javascript"></script>
 
-        <link rel="stylesheet" href="https://unpkg.com/@highlightjs/cdn-assets@11.9.0/styles/a11y-light.min.css">
+        <link rel="stylesheet" href="https://unpkg.com/@highlightjs/cdn-assets@11.9.0/styles/hybrid.min.css">
 
         <style>
             details{
@@ -49,9 +49,13 @@ use TreptowKolleg\Api\Session;
                 height: 100%;
                 vertical-align: middle;
             }
+            pre {
+                background: none!important;
+                padding: 0!important;
+            }
         </style>
-        <script src="https://unpkg.com/@highlightjs/cdn-assets@11.9.0/highlight.min.js"></script>
-
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.10.0/highlight.min.js" integrity="sha512-6yoqbrcLAHDWAdQmiRlHG4+m0g/CT/V9AGyxabG8j7Jk8j3r3K6due7oqpiRMZqcYe9WM2gPcaNNxnl2ux+3tA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.10.0/languages/latex.min.js" integrity="sha512-pFyz4NqzwEQdlyFXfDFIFeKX2k9zqkFu37xCxrjdrDCrprIy/bRItO0jXjii7nyxqwaCK2KfZ/9idRE/x4TkRQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
         <script>hljs.highlightAll();</script>
     </head>
     <body class="is-paper">

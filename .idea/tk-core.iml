@@ -28,5 +28,8 @@
     <orderEntry type="library" name="chota" level="application" />
     <orderEntry type="library" name="vanilla-framework-version-4.7.0" level="application" />
     <orderEntry type="library" name="@sidsbrmnn/scrollspy" level="application" />
+    <orderEntry type="library" name="browse" level="application" />
+    <orderEntry type="library" name="@highlightjs/cdn-assets" level="application" />
+    <orderEntry type="library" name="highlight.js" level="application" />
   </component>
 </module>
