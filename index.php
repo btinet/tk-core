@@ -198,6 +198,7 @@ function getName(string $file): ?string
         'tables' => 'Tabellen',
         'php_ide' => 'PHP IDE',
         'java_ide' => 'JAVA IDE',
+        'latex_ide' => 'LaTeX IDE',
         'relations' => 'Beziehungen',
         'object_relations' => 'Objektbeziehungen',
         'class_relations' => 'Klassenbeziehungen',

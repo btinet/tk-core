@@ -147,11 +147,25 @@ use TreptowKolleg\Api\Session;
         <div class="l-docs__subgrid">
             <div class="l-docs__main">
                 <div class="row">
-                    <div class="col">
-                        <small>Diese Website verwendet Server von</small><br>
-                        <img src="/assets/img/LOGO_IONOS_Blue_RGB-1.png" alt="IONOS Logo" width="200" style="vertical-align: middle">
-                        <p>&nbsp;</p>
+                    <div class="col-4 u-vertically-center">
+                        <div>
+                            <small>Mitglied in</small>
+                        </div>
                     </div>
+                    <div class="col-4 u-vertically-center">
+                        <a href="https://www.dpg-physik.de/" target="_blank">
+                            <img src="/assets/img/dpg.svg" alt="IONOS Logo" height="75" style="vertical-align: middle">
+                        </a>
+
+                    </div>
+                    <div class="col-4 u-vertically-center">
+                        <a href="https://www.gi.de" target="_blank">
+                            <img src="/assets/img/gi.svg" alt="IONOS Logo" height="75" style="vertical-align: middle">
+                        </a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">&nbsp;</div>
                 </div>
             </div>
         </div>
