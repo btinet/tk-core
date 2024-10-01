@@ -1,0 +1,25 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+    <!-- Achsen -->
+    <line x1="100" y1="100" x2="180" y2="100" stroke="black" />
+    <line x1="100" y1="100" x2="100" y2="20" stroke="black" />
+    <line x1="100" y1="100" x2="40" y2="160" stroke="black" />
+    <!-- Beschriftung der Achsen -->
+    <text x="185" y="105" font-size="12">x</text>
+    <text x="95" y="15" font-size="12">y</text>
+    <text x="30" y="165" font-size="12">z</text>
+    <!-- Vektor a -->
+    <line x1="100" y1="100" x2="150" y2="70" stroke="blue" stroke-width="2" marker-end="url(#arrow)" />
+    <text x="155" y="70" font-size="12">a</text>
+    <!-- Vektor b -->
+    <line x1="100" y1="100" x2="160" y2="120" stroke="green" stroke-width="2" marker-end="url(#arrow)" />
+    <text x="165" y="120" font-size="12">b</text>
+    <!-- Winkel zwischen den Vektoren -->
+    <path d="M120 85 A25 25 0 0 1 135 100" fill="none" stroke="black" stroke-width="1"/>
+    <text x="130" y="95" font-size="12">θ</text>
+    <!-- Pfeilspitzen -->
+    <defs>
+        <marker id="arrow" markerWidth="10" markerHeight="10" refX="0" refY="3" orient="auto" markerUnits="strokeWidth">
+            <path d="M0,0 L0,6 L9,3 z" fill="blue" />
+        </marker>
+    </defs>
+</svg>

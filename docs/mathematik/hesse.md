@@ -1,6 +1,6 @@
 # Hesse'sche Normalenform
 
-## Beispiel 1:
+## Beispiel 1
 
 $E\colon\; \vec{n} \circ \left[\vec{x} - \vec{a}\right] = \begin{pmatrix} 2 \\\ 1 \\\ -2 \end{pmatrix} \circ \left[\begin{pmatrix} x_1 \\\ x_2 \\\ x_3 \end{pmatrix} - \begin{pmatrix} 0 \\\ 1 \\\ 1 \end{pmatrix}\right] = 0$
 
@@ -42,8 +42,8 @@ $
 
 Der Abstand des Punktes $P$ von der Ebene $E$ beträgt $2$ Längeneinheiten.
 
-### Interpretation des Ergebnisses
+## Interpretation des Ergebnisses
 
-- $d>0$: $P$ liegt auf der Ebene $E$
-- $d=0$: $P$ und der Ursprung $O$ liegen auf verschiedenen Seiten der Ebene $E$
+- $d=0$: $P$ liegt auf der Ebene $E$
+- $d>0$: $P$ und der Ursprung $O$ liegen auf verschiedenen Seiten der Ebene $E$
 - $d<0$: $P$ und der Ursprung $O$ liegen auf der gleichen Seite der Ebene $E$

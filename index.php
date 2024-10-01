@@ -200,6 +200,7 @@ function getName(string $file): ?string
         'java_ide' => 'JAVA IDE',
         'latex_ide' => 'LaTeX IDE',
         'cpp_ide' => 'C++ IDE',
+        'vector' => 'Vektoren',
         'relations' => 'Beziehungen',
         'object_relations' => 'Objektbeziehungen',
         'class_relations' => 'Klassenbeziehungen',
