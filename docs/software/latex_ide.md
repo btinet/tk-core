@@ -4,7 +4,7 @@
 
 *Überspringe diesen Schritt, falls du bereits Chocolatey installiert hast.*
 
-Für die Installation erforderlicher Software für die PHP-Entwicklung, aber auch für andere
+Für die Installation erforderlicher Software für die $\LaTeX$-Entwicklung, aber auch für andere
 Programmiersprachen, benötigen wir einen Softwarepaketmanager. Ein einfacher Paketmanager
 **Chocolatey**.
 

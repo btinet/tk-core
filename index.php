@@ -199,6 +199,7 @@ function getName(string $file): ?string
         'php_ide' => 'PHP IDE',
         'java_ide' => 'JAVA IDE',
         'latex_ide' => 'LaTeX IDE',
+        'cpp_ide' => 'C++ IDE',
         'relations' => 'Beziehungen',
         'object_relations' => 'Objektbeziehungen',
         'class_relations' => 'Klassenbeziehungen',

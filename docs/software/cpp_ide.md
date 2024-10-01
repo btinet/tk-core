@@ -1,6 +1,10 @@
-# Entwicklungsumgebung für JAVA
+# Entwicklungsumgebung für C++
 
-## Chocolatey
+## Paketmanager
+
+### Windows
+
+#### Chocolatey
 
 *Überspringe diesen Schritt, falls du bereits Chocolatey installiert hast.*
 
@@ -42,50 +46,14 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope LocalMachine
 
 Danach sollte das Ausführen funktionieren.
 
-### Empfohlene Software für die PHP-Entwicklung
+## Compiler
 
-- Git
-- JAVA JDK
-- JAVA IDE
+### Windows
 
-## Git
+### Ubuntu und Debian
 
-*Überspringe diesen Schritt, falls du bereits Git installiert hast.*
+## Entwicklungsumgebung
 
-Git ist perfekt für die Versionierung von Softwareprojekten. Git hilft dir außerdem dabei, von
-überall aus auf deine Dateien zugreifen zu können.
+### Windows
 
-*Da Git ziemlich kompliziert ist, wird es dazu eine eigene Sektion geben.*
-
-````shell
-choco install git
-````
-
-## JAVA JDK
-
-Symfony ist eigentlich für das gleichnamige PHP-Framework gedacht. Dennoch ist
-es für unsere Zwecke perfekt geeignet, da die Verwaltung des Testservers so
-deutlich einfacher erledigt werden kann.
-
-````shell
-choco install liberica11jdkfull
-````
-
-Über ein Terminal im Projektordner kann dann das kompilierte Projekt gestartet werden:
-
-````shell
-java -jar myProject.jar
-````
-
-Über die IDE kann das Projekt auch direkt gestartet und getestet werden.
-
-## JAVA IDE
-
-Für die eigentliche Entwicklungsarbeit sollten wir auf eine IDE zurückgreifen.
-
-Ein klarer Sieger ist die **Jetbrains IntelliJ (CE)**. Sie bietet alles, was das
-JAVA-Herz begehrt. Mit dabei sogar eine Git- und Package-Manager-Integration.
-
-````shell
-choco install intellijidea-community
-````
+### Ubuntu und Debian
