@@ -8,6 +8,11 @@ die ich mit $\LaTeX$ verfasste, findest du <a href="/assets/pdf/Hausarbeit.pdf" 
 
 Referenz- und Begleitfächer waren Informatik und Physik.
 
+Die zur BLL entwickelten Java-Projekte sind hier zu finden:
+
+- [MVS Core Software](https://github.com/btinet/gamereactcore)
+- [Pong React (Vorstudie)](https://github.com/btinet/gamereact)
+
 ## Was ist neu
 
 - Suchfunktion implementiert ✔️
