@@ -89,7 +89,10 @@ use TreptowKolleg\Api\Session;
                                         <a class="p-navigation__link" href="/?page=t-abirechner">Abi-Rechner</a>
                                     </li>
                                     <li class="p-navigation__item <?= $_GET['page'] == 't-vp' ? 'is-selected' : ''?>">
-                                        <a class="p-navigation__link" href="/?page=t-vp">Philosophie</a>
+                                        <a class="p-navigation__link" target="_blank" href="https://abi.treptowkolleg.de">5. PK Verwaltung</a>
+                                    </li>
+                                    <li class="p-navigation__item <?= $_GET['page'] == 't-vp' ? 'is-selected' : ''?>">
+                                        <a class="p-navigation__link" target="_blank" href="https://wahl.treptowkolleg.de">Wahl Digital</a>
                                     </li>
                                     <?php if ($session->get('login')): ?>
                                         <li class="p-navigation__item">
@@ -177,7 +180,7 @@ use TreptowKolleg\Api\Session;
     <footer class="l-footer--sticky p-strip--dark">
         <div class="l-docs__subgrid">
             <div class="l-docs__sidebar u-fixed-width">
-                <p class="u-no-margin--bottom">© 2023-<?=date("Y")?><br>Benjamin Wagner.</p>
+                <p class="u-no-margin--bottom">© 2021-<?=date("Y")?><br>Benjamin Wagner</p>
             </div>
             <div class="l-docs__main">
                 <div class="row">
@@ -197,7 +200,6 @@ use TreptowKolleg\Api\Session;
                     <div class="col-9">
                         <p class="u-no-margin--bottom">
                             <div class="helper"><span>Ein Projekt der <b>AG Informatik</b> am Treptow-Kolleg Berlin.</span></div>
-                            <span>Powered by <i><img src="/docs/img/vf-logo.svg" width="32px" alt="Vaganca Frameworks Logo" style="vertical-align:middle">Vaganca Frameworks</i></span>
                         </p>
                     </div>
                 </div>

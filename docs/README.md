@@ -7,7 +7,6 @@ Aktuell findet die **AG Informatik** immer freitags 12:30 Uhr im Raum A102 statt
 - Suchfunktion implementiert ✔️
 - Abi-Rechner ✔️
 - Interaktive SQL-Abfragen zu zahlreichen Übungsdatenbanken ✔️
-  - Nutzung über [API für eigene Projekte](https://packagist.org/packages/treptowkolleg/api) möglich
 - Abituraufgaben für Physik ✔️
 - Lerninhalte für Mathematik ✔️
 
@@ -15,7 +14,8 @@ Aktuell findet die **AG Informatik** immer freitags 12:30 Uhr im Raum A102 statt
 
 - Login-Formular ✔️
 - TicTacToe-Spiel in PHP 🔨
-  - fertiges [Musterbeispiel](https://ttt.treptowkolleg.de)
+- Terminal-basiertes RPG in PHP 🔨
+- Terminal-RPG nach C++ portieren 🔨
 
 ## Über mich
 
@@ -83,5 +83,3 @@ In der heutigen Zeit ist zumindest sicher, dass der Informatikunterricht für di
 ![Unterschrift](/docs/img/sign.png)
 
 Leitung, AG Informatik
-
-<span>PHP-Packages für Entwicklungen wie Urlaub bei <a target="_blank" href="https://github.com/vaganca"><i>Vaganca Frameworks</i></a>.</span>
