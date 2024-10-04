@@ -2,6 +2,12 @@
 
 Aktuell findet die **AG Informatik** immer freitags 12:30 Uhr im Raum A102 statt.
 
+Meine besondere Lernleistung
+**Machine-Vision als Grundlage zur Entwicklung innovativer Konferenzsysteme. Ein Forschungsprojekt unter dem Aspekt der technischen Informatik**,
+die ich mit $\LaTeX$ verfasste, findest du <a href="/assets/pdf/Hausarbeit.pdf" target="_blank">hier als PDF</a>.
+
+Referenz- und Begleitfächer waren Informatik und Physik.
+
 ## Was ist neu
 
 - Suchfunktion implementiert ✔️
