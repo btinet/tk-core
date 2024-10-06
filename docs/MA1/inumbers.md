@@ -92,7 +92,7 @@ Um die geometrische Bedeutung zu erkennen, müssen wir den Abstand $r=\sqrt{x^2+
 z_1z_2 &= x_1x_2-y_1y_2+i(x_1y_2+x_2y_1) && \\\
 Re(z_1z_2) &= x_1x_2-y_1y_2 && \\\
 &= r_1\cos{\phi_1}r_2\cos{\phi_2} - r_1\sin{\phi_1}r_2\sin{\phi_2} && \\\
-&= r_1r_2\cos(\phi_1+\phi_2) && \\\
+&= r_1r_2\cos(\phi_1+\phi_2) = ReZ_3 && \\\
 \end{aligned}
 
 ### Übertragung auf den Imaginärteil
@@ -102,7 +102,7 @@ z_1z_2 &= x_1x_2-y_1y_2+i(x_1y_2+x_2y_1) && \\\
 Im(z_1z_2) &= y_1x_2+x_1y_2 && \\\
 &=r_1\sin{\phi_1}r_2\cos{\phi_2}+r_2\cos{\phi_2}r_1\sin{\phi_1} && \\\
 &=r_1r_2\sin(\phi_1+\phi_2) && \\\
-&=r_3\sin{\phi_3} = Im Z_3 && \\\
+&=r_1r_2\sin(\phi_1+\phi_2) = ImZ_3 && \\\
 \end{aligned}
 
 ### Geometrische Darstellung
