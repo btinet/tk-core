@@ -70,6 +70,15 @@ $A \lor (B \land C) \iff (A \lor B) \land (A \lor C)$
 
 ### Morgan'sche Regeln
 
+$\overline{(A \lor B)} \iff \overline{A} \land \overline{B}$
+
+$\overline{(A \land B)} \iff \overline{A} \lor \overline{B}$
+
+$A \implies B \iff \overline{A} \lor B$
+
+$\overline{(A \implies B)} \iff A \land \overline{B}$
+
+$(A \iff B) \iff ((A \implies B) \land (B \implies A))$
 
 
 ### Kontraposition
