@@ -1,15 +1,24 @@
 # Logik
 
+## Einleitung
+Differenzierbare Funktion:
+$f: [a,b] \to \mathbb{R}$
+
+$m$ ist Teiler von $m$: $m|n$
+
+Eine Aussage $A$ ist ein sprachliches Gebilde, welches einen der beiden Wahrheitswerte **wahr** ($W$) oder
+**falsch** ($F$) hat.
+
 ## Symbole
 
-| Zeichen    | $\LaTeX$ | Name        | Bedeutung                     |
-|------------|----------|-------------|-------------------------------|
-| $\land$    | \land    | Konjunktion | Und-Verknüpfung               |
-| $\lor$     | \lor     | Disjunktion | Oder-Verknüpfung (inklusiv)   |
-| $\veebar$  | \veebar  | Disjunktion | Oder-Verknüpfung (exklusiv)   |
-| $\lnot$    | \lnot    | Negation    | Verneinung                    |
-| $\iff$     | \iff     | Äquivalenz  | Übereinstimmung               |
-| $\implies$ | \implies | Implikation | hinreichende Schlussfolgerung |
+| Zeichen                     | $\LaTeX$ | Name        | Bedeutung                     |
+|-----------------------------|----------|-------------|-------------------------------|
+| $\land$                     | \land    | Konjunktion | Und-Verknüpfung               |
+| $\lor$                      | \lor     | Disjunktion | Oder-Verknüpfung (inklusiv)   |
+| $\veebar$                   | \veebar  | Disjunktion | Oder-Verknüpfung (exklusiv)   |
+| $\lnot$ oder $\overline{A}$ | \lnot    | Negation    | Verneinung                    |
+| $\iff$                      | \iff     | Äquivalenz  | Übereinstimmung               |
+| $\implies$                  | \implies | Implikation | hinreichende Schlussfolgerung |
 
 ### Wahrheitstabelle
 
@@ -20,7 +29,25 @@
 | $f$ | $w$ | $w$       | $f$         | $w$        | $w$           | $f$        | $w$            |
 | $f$ | $f$ | $w$       | $f$         | $f$        | $f$           | $w$        | $w$            |
 
+## Sprache
+
+$A \iff B$ heißt:
+
+12 ist positiv **genau dann, wenn** 12 durch 4 teilbar ist.
+
 ## Regeln
+
+### Hierarchie
+
+1. $\lnot$
+2. $\land$
+3. $\lor$
+
+### Kontraposition
+
+$(A \implies B) \iff (\overline{B} \implies \overline{A})$
+
+**Beispiel**: Wenn es regnet ($A$), ist die Straße nass ($B$).
 
 ### Allgemein
 
