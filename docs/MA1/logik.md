@@ -68,3 +68,19 @@ $A \land (B \lor C) \iff (A \land B) \lor (A \land C)$
 $A \lor (B \land C) \iff (A \lor B) \land (A \lor C)$
 
 ### Morgan'sche Regeln
+
+## Aussageformen
+
+Konstanten können durch Variablen ersetzt werden. Dann entsteht eine Aussageform. Werden Variablen
+durch Konstanten ersetzt, entsteht eine Aussage, die wahr oder falsch ist.
+
+**Beispiele:**
+
+$A(x): x \leq 10\$
+
+$A(1): 1 \leq 10 \iff (F)$
+
+### Quantoren
+
+- **All-Aussage**: *Für alle $x$ gilt $A(x)$*
+- **Existenz-Aussage**: *Es existiert ein $x$ mit $A(x)$* (mindestens ein)
