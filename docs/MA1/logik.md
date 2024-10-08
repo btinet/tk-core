@@ -34,9 +34,13 @@ Eine Aussage $A$ ist ein sprachliches Gebilde, welches einen der beiden Wahrheit
 
 ## Sprache
 
-$A \iff B$ heißt:
+$A \iff B$ heißt: $A$ ist äquivalent zu $B$ bzw. $B$ ist äquivalent zu $A$
 
-**Beispiel**: 12 ist positiv **genau dann, wenn** 12 durch 4 teilbar ist.
+**Beispiel**
+
+- $A$: $12$ ist positiv.
+- $B$: $12 $ ist durch $4 $ teilbar.
+- $12 $ ist positiv **genau dann, wenn** $12 $ durch $4 $ teilbar ist.
 
 ## Regeln
 
