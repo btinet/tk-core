@@ -85,9 +85,9 @@ durch Konstanten ersetzt, entsteht eine Aussage, die wahr oder falsch ist.
 
 **Beispiel:**
 
-$A(x): x \leq 10$
+$A(x): x \geq 10$
 
-$A(1): 1 \leq 10 \iff (F)$
+$A(1): 1 \geq 10 \iff (F)$
 
 ### Quantoren
 
