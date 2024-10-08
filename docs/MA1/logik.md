@@ -33,7 +33,7 @@ Eine Aussage $A$ ist ein sprachliches Gebilde, welches einen der beiden Wahrheit
 
 $A \iff B$ heißt:
 
-12 ist positiv **genau dann, wenn** 12 durch 4 teilbar ist.
+**Beispiel**: 12 ist positiv **genau dann, wenn** 12 durch 4 teilbar ist.
 
 ## Regeln
 
