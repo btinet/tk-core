@@ -25,12 +25,12 @@ Eine Aussage $A$ ist ein sprachliches Gebilde, welches einen der beiden Wahrheit
 
 ### Wahrheitstabelle
 
-| $A$ | $B$ | $\overline{A}$ | $A \land B$ | $A \lor B$ | $A \veebar B$ | $A \iff B$ | $A \implies B$ |
-|-----|-----|----------------|-------------|------------|---------------|------------|----------------|
-| $W$ | $W$ | $F$            | $F$         | $W$        | $F$           | $W$        | $W$            |
-| $W$ | $F$ | $F$            | $F$         | $W$        | $W$           | $F$        | $F$            |
-| $F$ | $W$ | $W$            | $F$         | $W$        | $W$           | $F$        | $W$            |
-| $F$ | $F$ | $W$            | $F$         | $F$        | $F$           | $W$        | $W$            |
+| $A$ | $B$ | $\overline{A}$ | $A \land B$ | $A \lor B$ | $A \dot\lor B$ | $A \iff B$ | $A \implies B$ |
+|-----|-----|----------------|-------------|------------|----------------|------------|----------------|
+| $W$ | $W$ | $F$            | $F$         | $W$        | $F$            | $W$        | $W$            |
+| $W$ | $F$ | $F$            | $F$         | $W$        | $W$            | $F$        | $F$            |
+| $F$ | $W$ | $W$            | $F$         | $W$        | $W$            | $F$        | $W$            |
+| $F$ | $F$ | $W$            | $F$         | $F$        | $F$            | $W$        | $W$            |
 
 ## Sprache
 
