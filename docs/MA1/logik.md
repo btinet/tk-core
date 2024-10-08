@@ -84,3 +84,16 @@ $A(1): 1 \leq 10 \iff (F)$
 
 - **All-Aussage**: *Für alle $x$ gilt $A(x)$*
 - **Existenz-Aussage**: *Es existiert ein $x$ mit $A(x)$* (mindestens ein)
+
+### Negation
+
+**Beispiel**:
+
+Alle Schafe sind weiß: Für alle Schafe $x$ gilt, dass $x$ weißt ist:
+
+$A(x): x$
+
+1. Nicht alle Schafe sind weiß
+2. Es existiert ein Schaf, das nicht weiß ist
+3. Es existiert ein Schaf, das weiß ist
+4. Es existiert ein Schaf $x$, sodass $\overline{A(x)}$
