@@ -31,5 +31,7 @@
     <orderEntry type="library" name="browse" level="application" />
     <orderEntry type="library" name="@highlightjs/cdn-assets" level="application" />
     <orderEntry type="library" name="highlight.js" level="application" />
+    <orderEntry type="library" name="fonts" level="application" />
+    <orderEntry type="library" name="tikzjax" level="application" />
   </component>
 </module>
