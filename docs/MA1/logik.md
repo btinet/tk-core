@@ -97,7 +97,7 @@ Alle Schafe sind weiß: Für alle Schafe $x$ gilt, dass $x$ weiß ist:
 $A(x): x$
 
 1. Nicht alle Schafe sind weiß
-2. Es existiert ein Schaf $x$, sodass $\overline{A(x)}$
+2. Es existiert ein $x$, sodass $\overline{A(x)}$
 
 #### Negation der Existenz-Aussage
 
