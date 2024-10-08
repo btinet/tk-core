@@ -18,7 +18,7 @@ Eine Aussage $A$ ist ein sprachliches Gebilde, welches einen der beiden Wahrheit
 |-----------------------------|-------------------------|-------------|-------------------------------|
 | $\land$                     | \land                   | Konjunktion | Und-Verknüpfung               |
 | $\lor$                      | \lor                    | Disjunktion | Oder-Verknüpfung (inklusiv)   |
-| $\veebar$                   | \veebar                 | Disjunktion | Oder-Verknüpfung (exklusiv)   |
+| $\veebar$ bzw. $\dot\lor$   | \veebar bzw. \dot\lor   | Disjunktion | Oder-Verknüpfung (exklusiv)   |
 | $\lnot$ bzw. $\overline{A}$ | \lnot bzw. \overline{A} | Negation    | Verneinung                    |
 | $\iff$                      | \iff                    | Äquivalenz  | Übereinstimmung               |
 | $\implies$                  | \implies                | Implikation | hinreichende Schlussfolgerung |
