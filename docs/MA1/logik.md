@@ -50,12 +50,6 @@ $A \iff B$ heißt: $A$ ist äquivalent zu $B$ bzw. $B$ ist äquivalent zu $A$
 2. $A \land B$
 3. $A \lor B$
 
-### Kontraposition
-
-$(A \implies B) \iff (\overline{B} \implies \overline{A})$
-
-**Beispiel**: Wenn es regnet ($A$), ist die Straße nass ($B$).
-
 ### Allgemein
 
 $\overline{(\overline{A})} \iff A$
@@ -75,6 +69,14 @@ $A \land (B \lor C) \iff (A \land B) \lor (A \land C)$
 $A \lor (B \land C) \iff (A \lor B) \land (A \lor C)$
 
 ### Morgan'sche Regeln
+
+
+
+### Kontraposition
+
+$(A \implies B) \iff (\overline{B} \implies \overline{A})$
+
+**Beispiel**: Wenn es regnet ($A$), ist die Straße nass ($B$).
 
 ## Aussageformen
 
