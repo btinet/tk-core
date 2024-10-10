@@ -186,6 +186,7 @@ function getName(string $file): ?string
         'exercise' => 'Übungen',
         'class' => 'Klassen',
         'cases' => 'Fälle',
+        'co' => 'Rechnerorganisation',
         '_index' => 'Einleitung',
         'projection' => 'Projektion',
         'gleichungen' => 'Gleichungen',
