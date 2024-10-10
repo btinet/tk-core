@@ -17,7 +17,7 @@ Eine Aussage $A$ ist ein sprachliches Gebilde, welches einen der beiden Wahrheit
 | Zeichen                     | $\LaTeX$                | Name        | Bedeutung                     |
 |-----------------------------|-------------------------|-------------|-------------------------------|
 | $\land$                     | \land                   | Konjunktion | Und-Verknüpfung               |
-| $\not\land$                 | \not\land               | Konjunktion | Nicht-Und-Verknüpfung         |
+| $\overline\land$            | \overline\land          | Konjunktion | Nicht-Und-Verknüpfung         |
 | $\lor$                      | \lor                    | Disjunktion | Oder-Verknüpfung (inklusiv)   |
 | $\veebar$ bzw. $\dot\lor$   | \veebar bzw. \dot\lor   | Disjunktion | Oder-Verknüpfung (exklusiv)   |
 | $\lnot$ bzw. $\overline{A}$ | \lnot bzw. \overline{A} | Negation    | Verneinung                    |
