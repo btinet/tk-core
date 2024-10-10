@@ -32,6 +32,7 @@ Eine Aussage $A$ ist ein sprachliches Gebilde, welches einen der beiden Wahrheit
 | $F$ | $W$ | $W$            | $F$         | $W$        | $W$            | $F$        | $W$            |
 | $F$ | $F$ | $W$            | $F$         | $F$        | $F$            | $W$        | $W$            |
 
+
 ## Sprache
 
 $A \iff B$ heißt: $A$ ist äquivalent zu $B$ bzw. $B$ ist äquivalent zu $A$
@@ -86,6 +87,29 @@ $(A \iff B) \iff ((A \implies B) \land (B \implies A))$
 $(A \implies B) \iff (\overline{B} \implies \overline{A})$
 
 **Beispiel**: Wenn es regnet ($A$), ist die Straße nass ($B$).
+
+## Übung zu Aussagen
+
+### NAND
+
+#### Negation
+
+\begin{flalign}
+\overline{A} &= A \overline{\land}  A & \\\
+\overline{B} &= B \overline{\land}  B &
+\end{flalign}
+
+#### Und-Verknüpfung
+
+\begin{flalign}
+A \land B &= (A \overline{\land} B) \overline{\land} (A \overline{\land} B) &&
+\end{flalign}
+
+#### Oder-Verknüpfung
+
+\begin{flalign}
+A \lor B &= (A \overline{\land} A) \overline{\land} (B \overline{\land} B) &&
+\end{flalign}
 
 ## Aussageformen
 
