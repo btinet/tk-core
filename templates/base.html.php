@@ -161,13 +161,13 @@ use TreptowKolleg\Api\Session;
                     </div>
                     <div class="col-4 u-vertically-center">
                         <a href="https://www.dpg-physik.de/" target="_blank">
-                            <img src="/assets/img/dpg.svg" alt="IONOS Logo" height="75" style="vertical-align: middle">
+                            <img src="/assets/img/dpg.svg" alt="IONOS Logo" height="75" style="vertical-align: middle; max-height: 75px!important;">
                         </a>
 
                     </div>
                     <div class="col-4 u-vertically-center">
                         <a href="https://www.gi.de" target="_blank">
-                            <img src="/assets/img/gi.svg" alt="IONOS Logo" height="75" style="vertical-align: middle">
+                            <img src="/assets/img/gi.svg" alt="IONOS Logo" height="75" style="vertical-align: middle; max-height: 75px!important;">
                         </a>
                     </div>
                 </div>
