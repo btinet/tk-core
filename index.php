@@ -188,6 +188,7 @@ function getName(string $file): ?string
         'cases' => 'Fälle',
         'co' => 'Rechnerorganisation',
         '_index' => 'Einleitung',
+        'pl' => 'Programmiersprachen',
         'projection' => 'Projektion',
         'gleichungen' => 'Gleichungen',
         'linfunc' => 'Lineare Funktionen',

@@ -63,3 +63,7 @@ $\mathbb I \not\subset \mathbb Q \iff \overline{\mathbb I \subset \mathbb Q}$
 <small>**TIPP**: Zahlenmengen lassen sich in $\LaTeX$ mit \mathbb R ($\mathbb R$) darstellen. Konstanten mit \mathrm i ($\mathrm i$).</small>
 
 ![640px-Number-systems.svg.png](/docs/img/640px-Number-systems.svg.png)
+
+## Distributivgesetze
+
+![Venn-Diagramm](/docs/img/distributiv_venn.png)
