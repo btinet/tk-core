@@ -187,6 +187,8 @@ function getName(string $file): ?string
         'class' => 'Klassen',
         'cases' => 'Fälle',
         'co' => 'Rechnerorganisation',
+        'cflow' => 'Control Flow',
+        'typsystem' => 'Typsystem',
         '_index' => 'Einleitung',
         'pl' => 'Programmiersprachen',
         'projection' => 'Projektion',
