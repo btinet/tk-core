@@ -1,5 +1,5 @@
 # Control Flow
-
+Einzelnen Maschinenbefehle eines Programms sind NICHT unabhängig voneinander.
 Um den Systemzustand während eines Funktionsaufrufs konsistent zu halten, legt der Compiler eine Reihe von Daten im Arbeitsspeicher ab.
 
 Welche Daten werden abgelegt?
@@ -8,8 +8,6 @@ Welche Daten werden abgelegt?
 - Rücksprungadresse 
 - Funktionsparameter
 - Lokale Variablen der Funktion
-
-Lokale Variablen der Funktion
 
 ## Schleifen
 
