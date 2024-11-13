@@ -38,6 +38,9 @@ Y &= (\overline{X1} \land X2) \lor (X1 \land \overline{X2} ) & \\\
 
 ## Kanonische DNF
 
+In allen Termen sind alle Variablen negiert oder nicht
+negiert vorhanden.
+
 ## Primtermdarstellung
 
 ### Motivation
