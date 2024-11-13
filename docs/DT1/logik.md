@@ -27,6 +27,9 @@ Y &= (\overline{X1} \land X2) \lor (X1 \land \overline{X2} ) & \\\
 
 ## Algebra
 
+- $\cdot$ entspricht $\land$ ($a \cdot b = a \land b$)
+- $+$ entspricht $\lor$ ($a + b = a \lor b$)
+
 ## Vollständige Systeme
 
 ## Karnaugh-Veitch-Diagramme
@@ -34,3 +37,26 @@ Y &= (\overline{X1} \land X2) \lor (X1 \land \overline{X2} ) & \\\
 ## Disjunktive Normalform
 
 ## Kanonische DNF
+
+## Primtermdarstellung
+
+### Motivation
+
+- Darstellung möglichst kurzer boolescher Ausdrücke
+- technische Realisierung logischer Funktionen
+
+### Vorbemerkung
+
+#### Implikation
+
+Für jede Belegung, für die $g$ den Wert $1$ hat, nimmt auch
+$f$ in ihrem Definitionsbereich $D$ deb Wert $1$ an.
+
+$$g \to f = 1$$
+
+Nur Konjunktionsterme sind Kandidaten für Implikanten. Das
+schließt Disjunktionsterme (Oder-Termine) aus.
+
+Minterme, die sich nicht weiter zusammenfassen lassen,
+sind auch Primterme.
+
