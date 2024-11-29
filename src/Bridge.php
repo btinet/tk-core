@@ -33,7 +33,7 @@ class Bridge
         $data['apikey'] = $this->apikey;
         $data['database'] = $this->database;
 
-        $ch = curl_init("https://cdn.cinekolleg.de/sqlrequest.php");
+        $ch = curl_init("https://it.wagnerpictures.com/sqlrequest.php");
         return $this->extracted($ch, $data);
     }
 
