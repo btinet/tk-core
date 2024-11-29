@@ -21,7 +21,7 @@ Es sollen Vor- und Nachnamen aller Lehrkräfte angezeigt werden.
 SELECT Name FROM lehrkraft
 ````
 
-<form method="post" action="https://it.treptowkolleg.de/?page=docs-sql#result">
+<form method="post" action="https://it.wagnerpictures.com/?page=docs-sql#result">
 <input type="hidden" name="db" value="tk01">
 <input type="hidden" name="query" value="
 SELECT Name FROM lehrkraft
@@ -36,7 +36,7 @@ die Spalte *Wohnort* der Relation *Lehrkraft* in *Ort* umbenannt werden:
 SELECT Name, Wohnort AS Ort FROM lehrkraft
 ````
 
-<form method="post" action="https://it.treptowkolleg.de/?page=docs-sql#result">
+<form method="post" action="https://it.wagnerpictures.com/?page=docs-sql#result">
 <input type="hidden" name="db" value="tk01">
 <input type="hidden" name="query" value="
 SELECT Name, Wohnort AS Ort FROM lehrkraft
@@ -57,7 +57,7 @@ FROM lehrkraft
 ORDER BY Wohnort, Name
 ````
 
-<form method="post" action="https://it.treptowkolleg.de/?page=docs-sql#result">
+<form method="post" action="https://it.wagnerpictures.com/?page=docs-sql#result">
 <input type="hidden" name="db" value="tk01">
 <input type="hidden" name="query" value="
 SELECT Name, Wohnort AS Ort
@@ -75,7 +75,7 @@ FROM lehrkraft
 ORDER BY Name DESC
 ````
 
-<form method="post" action="https://it.treptowkolleg.de/?page=docs-sql#result">
+<form method="post" action="https://it.wagnerpictures.com/?page=docs-sql#result">
 <input type="hidden" name="db" value="tk01">
 <input type="hidden" name="query" value="
 SELECT Name, Wohnort AS Ort
@@ -95,7 +95,7 @@ FROM lehrkraft
 LIMIT 5
 ````
 
-<form method="post" action="https://it.treptowkolleg.de/?page=docs-sql#result">
+<form method="post" action="https://it.wagnerpictures.com/?page=docs-sql#result">
 <input type="hidden" name="db" value="tk01">
 <input type="hidden" name="query" value="
 SELECT Name, Wohnort AS Ort 
@@ -113,7 +113,7 @@ FROM lehrkraft
 LIMIT 5 OFFSET 5
 ````
 
-<form method="post" action="https://it.treptowkolleg.de/?page=docs-sql#result">
+<form method="post" action="https://it.wagnerpictures.com/?page=docs-sql#result">
 <input type="hidden" name="db" value="tk01">
 <input type="hidden" name="query" value="
 SELECT Name, Wohnort AS Ort 
@@ -143,7 +143,7 @@ FROM lehrkraft
 WHERE Geburtsjahr IS NULL
 ````
 
-<form method="post" action="https://it.treptowkolleg.de/?page=docs-sql#result">
+<form method="post" action="https://it.wagnerpictures.com/?page=docs-sql#result">
 <input type="hidden" name="db" value="tk01">
 <input type="hidden" name="query" value="
 SELECT Name, Geburtsjahr
@@ -161,7 +161,7 @@ FROM lehrkraft
 WHERE Geburtsjahr IS NOT NULL
 ````
 
-<form method="post" action="https://it.treptowkolleg.de/?page=docs-sql#result">
+<form method="post" action="https://it.wagnerpictures.com/?page=docs-sql#result">
 <input type="hidden" name="db" value="tk01">
 <input type="hidden" name="query" value="
 SELECT Name, Geburtsjahr
@@ -197,7 +197,7 @@ WHERE
       lf.Fach = f.Name
 ````
 
-<form method="post" action="https://it.treptowkolleg.de/?page=docs-sql#result">
+<form method="post" action="https://it.wagnerpictures.com/?page=docs-sql#result">
 <input type="hidden" name="db" value="tk01">
 <input type="hidden" name="query" value="
 SELECT l.Name AS Lehrkraft, f.Name AS Fach
@@ -224,7 +224,7 @@ FROM lehrkraft l
                 ON lf.Fach = f.Name
 ````
 
-<form method="post" action="https://it.treptowkolleg.de/?page=docs-sql#result">
+<form method="post" action="https://it.wagnerpictures.com/?page=docs-sql#result">
 <input type="hidden" name="db" value="tk01">
 <input type="hidden" name="query" value="
 SELECT l.Name AS Lehrkraft, f.Name AS Fach
@@ -249,7 +249,7 @@ FROM preisliste p
         USING(produkt)
 ````
 
-<form method="post" action="https://it.treptowkolleg.de/?page=docs-sql#result">
+<form method="post" action="https://it.wagnerpictures.com/?page=docs-sql#result">
 <input type="hidden" name="db" value="grosshandel">
 <input type="hidden" name="query" value="
 SELECT p.produkt AS Produkt, l.anzahl AS Anzahl
@@ -280,7 +280,7 @@ FROM lehrkraft l
                 ON lf.Fach = f.Name
 ````
 
-<form method="post" action="https://it.treptowkolleg.de/?page=docs-sql#result">
+<form method="post" action="https://it.wagnerpictures.com/?page=docs-sql#result">
 <input type="hidden" name="db" value="tk01">
 <input type="hidden" name="query" value="
 SELECT l.Name AS Lehrkraft, f.Name AS Fach
@@ -312,7 +312,7 @@ FROM lehrkraft l
                 ON lf.Fach = f.Name
 ````
 
-<form method="post" action="https://it.treptowkolleg.de/?page=docs-sql#result">
+<form method="post" action="https://it.wagnerpictures.com/?page=docs-sql#result">
 <input type="hidden" name="db" value="tk01">
 <input type="hidden" name="query" value="
 SELECT l.Name AS Lehrkraft, f.Name AS Fach
@@ -340,7 +340,7 @@ SELECT 'Schüler' AS Typ, Name FROM schueler
 UNION
 SELECT 'Lehrkraft', Name FROM lehrkraft
 ````
-<form method="post" action="https://it.treptowkolleg.de/?page=docs-sql#result">
+<form method="post" action="https://it.wagnerpictures.com/?page=docs-sql#result">
 <input type="hidden" name="db" value="tk01">
 <input type="hidden" name="query" value="SELECT 'Schüler' AS Typ, Name FROM schueler
 UNION
@@ -359,7 +359,7 @@ FROM preisliste p
 JOIN liefervertrag l
 USING(produkt)
 ````
-<form method="post" action="https://it.treptowkolleg.de/?page=docs-sql#result">
+<form method="post" action="https://it.wagnerpictures.com/?page=docs-sql#result">
 <input type="hidden" name="db" value="grosshandel">
 <input type="hidden" name="query" value="
 SELECT p.produkt, p.preis * l.anzahl AS Gesamt
@@ -383,7 +383,7 @@ JOIN liefervertrag l
 USING(produkt)
 GROUP BY p.produkt
 ````
-<form method="post" action="https://it.treptowkolleg.de/?page=docs-sql#result">
+<form method="post" action="https://it.wagnerpictures.com/?page=docs-sql#result">
 <input type="hidden" name="db" value="grosshandel">
 <input type="hidden" name="query" value="
 SELECT p.produkt, SUM(p.preis * l.anzahl) AS 'Gesamt/Produktgruppe'
@@ -410,7 +410,7 @@ verwendet wird. In anderen Ländern ist das jedoch möglicherweise der **Punkt**
 ````SQL
 SELECT produkt, FORMAT(preis,2,'de_DE') AS Preis FROM preisliste
 ````
-<form method="post" action="https://it.treptowkolleg.de/?page=docs-sql#result">
+<form method="post" action="https://it.wagnerpictures.com/?page=docs-sql#result">
 <input type="hidden" name="db" value="grosshandel">
 <input type="hidden" name="query" value="
 SELECT produkt, FORMAT(preis,2,'de_DE') AS Preis FROM preisliste
@@ -427,7 +427,7 @@ sich mit der Funktion ``CONCAT()`` umsetzen:
 ````SQL
 SELECT produkt, CONCAT( FORMAT(preis,2,'de_DE') , ' €' ) AS Preis FROM preisliste
 ````
-<form method="post" action="https://it.treptowkolleg.de/?page=docs-sql#result">
+<form method="post" action="https://it.wagnerpictures.com/?page=docs-sql#result">
 <input type="hidden" name="db" value="grosshandel">
 <input type="hidden" name="query" value="
 SELECT produkt, CONCAT( FORMAT(preis,2,'de_DE') , ' €' ) AS Preis FROM preisliste
@@ -463,7 +463,7 @@ SELECT 'Lehrkraft', Name FROM lehrkraft) ergebnis
 
 GROUP BY Typ
 ````
-<form method="post" action="https://it.treptowkolleg.de/?page=docs-sql#result">
+<form method="post" action="https://it.wagnerpictures.com/?page=docs-sql#result">
 <input type="hidden" name="db" value="tk01">
 <input type="hidden" name="query" value="
 SELECT Typ AS Personenkreis, COUNT(Name) AS 'Anzahl der Personen' FROM
@@ -495,7 +495,7 @@ FROM preisliste p
     JOIN liefervertrag l
         USING(produkt)
 ````
-<form method="post" action="https://it.treptowkolleg.de/?page=docs-sql#result">
+<form method="post" action="https://it.wagnerpictures.com/?page=docs-sql#result">
 <input type="hidden" name="db" value="grosshandel">
 <input type="hidden" name="query" value="
 SELECT p.produkt, CONCAT( FORMAT(SUM(p.preis * l.anzahl),2,'de_DE') , ' €' ) AS 'Gesamt/Produktgruppe'
