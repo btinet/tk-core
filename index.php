@@ -185,6 +185,7 @@ function getName(string $file): ?string
         'basics' => 'Grundlagen',
         'exercise' => 'Übungen',
         'class' => 'Klassen',
+        'terminal' => 'Terminal',
         'cases' => 'Fälle',
         'co' => 'Rechnerorganisation',
         'cflow' => 'Control Flow',
